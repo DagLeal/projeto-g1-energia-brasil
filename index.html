@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produção de Energia no Brasil — Dagner Costa Leal</title>
+<style>
+:root{--bg:#f6f8fa;--fg:#14232e;--mut:#51636f;--card:#fff;--bd:#d5dde3;--a:#0b5c8a;--b:#e6a117}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1a22;--fg:#e8eef2;--mut:#9db0bc;--card:#16252f;--bd:#27404f;--a:#5bb4e5;--b:#f0b43c}}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+header{padding:56px 24px 40px;border-bottom:6px solid var(--b);background:var(--card)}
+.w{max-width:960px;margin:0 auto}
+h1{font:800 clamp(2rem,5vw,3.2rem)/1.1 Georgia,serif;margin:0 0 12px}
+.meta{color:var(--mut);margin:0}.meta b{color:var(--fg)}
+main{padding:32px 24px}section{margin-bottom:32px}
+h2{font-size:1.3rem;border-left:5px solid var(--a);padding-left:10px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:16px}
+.c h3{margin:0 0 6px;font-size:1rem}.c p,.c ul{margin:0;color:var(--mut)}.c ul{padding-left:18px}
+a.btn{display:inline-block;margin:6px 8px 0 0;padding:10px 18px;border-radius:6px;background:var(--a);color:#fff;text-decoration:none;font-weight:600}
+a.btn.o{background:none;color:var(--a);border:2px solid var(--a)}
+a:focus-visible{outline:3px solid var(--b);outline-offset:2px}
+footer{padding:24px;text-align:center;color:var(--mut);border-top:1px solid var(--bd)}
+</style>
+</head>
+<body>
+<header><div class="w">
+<h1>Produção de Energia no Brasil</h1>
+<p class="meta"><b>Disciplina:</b> Linguagens de Programação</p>
+<p class="meta"><b>Professor:</b> Alexandre Neves Louzada</p>
+<p class="meta"><b>Aluno:</b> Dagner Costa Leal</p>
+</div></header>
+<main class="w">
+<section><h2>Problema</h2>
+<p>Como a produção de energia se distribui entre regiões, estados e fontes, e como ela evolui ao longo do tempo? O projeto analisa uma base simulada de 14.400 registros (Tema 6) e entrega um dashboard interativo.</p></section>
+<section><h2>Links</h2>
+<a class="btn" href="https://SEU-APP.streamlit.app">Abrir dashboard</a>
+<a class="btn o" href="https://github.com/SEU-USUARIO/projeto-g1-energia-brasil">Código no GitHub</a></section>
+<section><h2>O que foi feito</h2><div class="g">
+<div class="c"><h3>Tratamento</h3><p>Duplicatas, nulos, tipos e criação de colunas de ano e mês.</p></div>
+<div class="c"><h3>Análise exploratória</h3><p>Distribuições, comparações entre grupos e correlação de Pearson.</p></div>
+<div class="c"><h3>Séries temporais</h3><p>Média móvel de 12 meses e variação anual.</p></div>
+<div class="c"><h3>Banco de dados</h3><p>Persistência da base tratada em SQLite com SQLAlchemy.</p></div>
+</div></section>
+<section><h2>Tecnologias</h2>
+<p>Python · Pandas · NumPy · Matplotlib · Seaborn · Streamlit · SQLAlchemy · GitHub Pages</p></section>
+</main>
+<footer>Dagner Costa Leal · Linguagens de Programação · Prof. Alexandre Neves Louzada</footer>
+</body>
+</html>

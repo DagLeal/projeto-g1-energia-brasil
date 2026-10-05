@@ -11,7 +11,7 @@ Projeto G1 — Análise e Visualização de Dados com Python (Tema 6)
 ## Links
 - Repositório: https://github.com/DagLeal/projeto-g1-energia-brasil
 - Página do projeto (GitHub Pages): https://DagLeal.github.io/projeto-g1-energia-brasil/
-- Dashboard (Streamlit): https://https://projeto-g1-energia-brasil-dag-leal.streamlit.app/
+- Dashboard (Streamlit): https://projeto-g1-energia-brasil-dag-leal.streamlit.app/
 
 ## Problema
 Como a produção de energia se distribui entre regiões, estados e fontes, e como evolui ao longo do tempo?
